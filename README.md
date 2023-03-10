@@ -33,6 +33,8 @@ Folders:
 Files:
 - DataCleaningMain.ipynb: Contains the code to wrangle and clean the data. This includes finding common questions between years, renaming inconsistent column titles, filtering out largely null columns, and combining all the datasets
 - DataVectorization.ipynb: Contains the code to vectorize the combined dataframe from DataCleaningMain.
+- DataVisualization.ipynb: Contains the code to visualize the distribution of the vectorized features in histograms. Also contains a correlation matrix between all features in the vectorized dataframe.
+- MachineLearningModelling.ipynb: Contains the code of various machine learning models run on the vectorized dataframe, where the output variable we are trying to predict is the answer to the question, "Do you currently have a mental health disorder?" (i.e., the feature labeled was 45). Models so far include logistic regression, random forest, and decision tree models.
 
 
 
